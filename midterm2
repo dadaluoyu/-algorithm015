@@ -1,0 +1,12 @@
+class Solution:
+    def jump(self, nums: List[int]) -> int:
+        left = 0
+        right = 0
+        ans = 0
+        for i in range(len(nums) - 1):
+            right = max(nums[i] + i, right)
+            #可到达范围的右边界
+            if i == left: #如果遍历到左边界，必须跳一次（第一次是必须跳的）此时左边界更新为下次跳跃的左边界
+                left = right #跳到能跳的最大位置
+                ans += 1
+        return ans
