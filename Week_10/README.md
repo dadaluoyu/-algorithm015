@@ -1,4 +1,8 @@
 毕业总结：
+石墨文档地址：
+https://shimo.im/docs/mWpCdKaoNYoSr1Xu/ 《毕业总结 算法训练营》，可复制链接后用石墨文档 App 或小程序打开
+
+——————————————————————
 
 Git 版本控制流程
 cd -algorithm015
@@ -14,14 +18,6 @@ git add .
 提交
 git commit -m "code"
 git push -u origin master
-
-#学号:G20200579010289
-#姓名:蒋海平
-#班级:1 班
-#语言:Python
-#作业链接: https://github.com/dadaluoyu/-algorithm015/tree/master/Week_01
-#总结链接: https://github.com/dadaluoyu/-algorithm015/tree/master/Week_01
-
 
 极客大学的正确打开方式
 
@@ -71,7 +67,6 @@ feed back 反馈
 他说的是对的，就是这样
 投资也是，反复做，刻意练习
 
-图片: https://uploader.shimo.im/f/BxCRCixOhu6evJh4.png
 脑图，树状图，知识体系
 Ask me everything——reddit，和名人提问对话
 
@@ -153,7 +148,6 @@ For、while loop——Iteration迭代
 
 先拆再合，彻底理解算法
 
-图片: https://uploader.shimo.im/f/JgtZZAc6qFmb8P25.png
 
 Mindnode 做的脑图
 
@@ -250,7 +244,6 @@ Python 就 PyCharm
 
 没必要那么花哨，搞毛玻璃效果，不改变其本质
 
-图片: https://uploader.shimo.im/f/VvD18xpkBO6Q1ZOl.png
 配置了 Pycharm 的 leetcode 插件
 配置了字体 jetbrain mono 字体
 配置了主题 monokai，真的漂亮
@@ -348,7 +341,6 @@ reverse & compare
 
 String filtered_s = _filterNonNumberAndChar(s);
 用大写字母来区分连续的单词分词
-
 自顶向下，先关注实现逻辑和工程架构，架构设计好后，把函数列出来，不填里面的东西
 真正跑通逻辑后再来专心的写子函数里的一个个代码，将大的问题分解成小的问题
 再用模块化的编程手段去解决
@@ -357,19 +349,17 @@ String filtered_s = _filterNonNumberAndChar(s);
 你要代码写得快，bug 少的化
 主要是先解决最上层的主干逻辑
 代码可读性强，且不容易犯错
-
 你觉得代码简单，可能不是因为你牛，而是写代码的人牛、可读性强
-
 alphanumeric filter 用 google 搜一下，stackoverflow 上面就有一句话实现的代码
 正则表达式
-
 debug {
 return s.replaceAll( regex:"[^A-Za-z0-9]", replacement:""); 
 这里的 regex 和 replacement 是隐式的参数，是 IDEA 提醒你的参数
 不需要打上来，你只把后面的参数元素内容打上来就行
-
 然后不要拼错了！
 }
+
+
 
 写代码，永远只是一个初学者，永远在路上，向更厉害的人请教、学习、充实自己
 成长，最重要的就是成长
@@ -391,8 +381,6 @@ cmd + tab 则是切换不同的桌面应用窗口
 
 网络流和归约的算法还是要好好复习一下
 
-图片: https://uploader.shimo.im/f/cxoklRH50RCTh7ua.png
-
 不同复杂度的问题，解决起来，耗费的资源完全不同
 
 算法的时间复杂度优化后，对大规模的数据，提升是决定性的
@@ -412,7 +400,6 @@ cmd + tab 则是切换不同的桌面应用窗口
 
 递归树、主定理 master theorem
 我有点忘记具体内容和证明过程了
-图片: https://uploader.shimo.im/f/nrSkDQ6wSsYLtxv6.png
 
 第 16 分钟的时候
 http://stackoverflow.com/a/10597806
@@ -491,7 +478,7 @@ mincapacity 不够的话，就 2*current 更大点，动态扩容
 
 tail.next = null
 循环链表 tail.next = head
-图片: https://uploader.shimo.im/f/ISg54Vp7uKPZm3mS.png
+
 geekforgeeks，最简单链表实现，我没太懂每一部分元素的意思
 
 CMU 15121 计算机基础课
@@ -797,12 +784,12 @@ https://docs.python.org/2/library/heapq.html
 python 提供了一个高性能的 container 库
 https://docs.python.org/2/library/collections.html
 
-图片: https://uploader.shimo.im/f/TGuotTq2MUg3Sp3W.png
+
 www.bigocheatsheet.com
 
 priority queue 是 BST 的时间复杂度
 
-图片: https://uploader.shimo.im/f/2ZRLXXdsC4ZDcRF1.png
+
 看不懂没关系，不要慌，再次遇到的时候，回过头来看就豁然开朗了
 相当于埋了个伏笔
 关键不在于记住细节，而是学会方法，以后遇到问题了可以自己去查，去学
@@ -1394,8 +1381,7 @@ DFS的路径遍历顺序就是递归的递归树生成的顺序
 不等循环走完就展开下一层，返回上一层时看上一层有没有其他儿子，有就进去，没有就继续向上返回
 
 图的话是遇到遍历过的节点就返回
-判断是否遍历过，可以加在第一句，和递归终止条件的结构保持一致图片: https://uploader.shimo.im/f/eNPUvdA6Y72YvD7U.png
-递归是因为重复性
+判断是否遍历过，可以加在第一句，和递归终止条件的结构保持一致
 
 懂了懂了，图的遍历要判断是否访问过，而树不要
 树天然不会重复访问
@@ -1586,7 +1572,6 @@ DEBUG能力是否强，我面字节的时候，debug能力确实差了点，连�
 在3D引擎里面，涉及到矩阵变换，用的非常多
 因为你求两点之间距离就是（x平方+y平方），再开根号
 
-图片: https://uploader.shimo.im/f/X7EtAC09eaxUOz3y.png
 这里有一个magic number，是通过经验得到的
 
 John Carmack是雷神之锤创始人，现在在Oculus
@@ -1665,7 +1650,6 @@ jim simons
 注意算法里的n是什么具体含义，能不能归约
 复杂度和复杂度不一样
 
-图片: https://uploader.shimo.im/f/zoGaoCqCWJRF39fj.png
 时间复杂度怎么分析
 
 如何1分钟快速分析
@@ -1677,8 +1661,6 @@ queue里只进去一次
 循环是O（m）我太急了，没有看对
 
 对每一个单词书里的词遍历一次
-
-图片: https://uploader.shimo.im/f/cU8wRZiWMdicJN5w.png
 
 展开啊，应该是n平方
 
@@ -1696,9 +1678,6 @@ queue里只进去一次
 递归不可能出现n平方
 只有循环才会是n平方
 
-
-
-图片: https://uploader.shimo.im/f/SUphjRj3BgPMxuAi.png
 
 106代码
 132 657 4
@@ -1732,12 +1711,11 @@ labuladong有双指针判断链表有没有环的方法
 
 合并两个链表，这个是正确的，只要把指针别过来就行了，只需要指一次，其他的不用管
 
-图片: https://uploader.shimo.im/f/q8e3UUVb81yt8Se0.png
 
 谁小就以谁为头
 
 lc 88 合并两个有序数组，高频题，没什么好说的
-图片: https://uploader.shimo.im/f/CfpbdgbhSY1aYh8G.png
+
 
 从后面开始放，放前面就没有位置了，哪个大就选谁，慢慢放
 
@@ -1748,7 +1726,7 @@ python API是真的好，简洁，做题太快了
 
 头条第三面压轴题
 LC 23 合并K个有序链表
-图片: https://uploader.shimo.im/f/KOS4UPOLBoAVIx1M.png
+
 定义优先队列，有比较的方法
 然后把所有链表的头节点，加在优先队列里
 然后每次从优先队列里拿最小值
@@ -1756,7 +1734,6 @@ LC 23 合并K个有序链表
 p.next就是取出来的queue的最小值
 把较小的值的next加到优先队列里继续比较
 
-图片: https://uploader.shimo.im/f/mXDjKIl4wLK5UVV2.png
 代码放在脑图里，平时多看
 
 期中复习回顾一遍
@@ -1765,7 +1742,7 @@ p.next就是取出来的queue的最小值
 lc 75 颜色分类
 把零放最左边，2放最右边
 荷兰国旗问题
-图片: https://uploader.shimo.im/f/OEtjI1aYVXAFQfHn.png
+
 
 你可以排序，可以count计数，可以双下标
 左边指针是0的边界，l++，右边指针是2的边界， r--
@@ -1778,7 +1755,7 @@ lc 75 颜色分类
 
 因为有一个元素没有判，i那个位置没有判断， ++i后回到i，再判断一遍
 
-图片: https://uploader.shimo.im/f/cfagudvTi7vKuM7X.png
+
 正确了，nice
 
 数组的下标一定要掌握好
@@ -1796,7 +1773,7 @@ k + 1 和 len - 1
 双指针去夹
 
 这是双指针夹逼的代码块
-图片: https://uploader.shimo.im/f/mFpeQMVivUidaYG1.png
+
 
 while循环判重
 非常关键
@@ -1805,12 +1782,12 @@ while循环判重
 --j
 
 这种形态特别精妙
-图片: https://uploader.shimo.im/f/DhsLWfaFGzWjGj4Y.png
+
 
 这种比较好理解
 ++l 就是先
 
-图片: https://uploader.shimo.im/f/Gx6Gk7hdHZLpWBXl.png
+
 
 第一个条件判断是不可能等于0了
 第二个条件是nums[k]被验证过了，就不重复做了
@@ -1818,13 +1795,13 @@ while循环判重
 判重并不简单
 哈希表判重更是大麻烦的事情
 
-图片: https://uploader.shimo.im/f/oRGxMpu3AgoIsVsW.png
+
 这个c++写的真的好
 
 
 先是越做越厚，再是越做越薄
 
-图片: https://uploader.shimo.im/f/DfZA7I8SjAzS53sf.png
+
 
 跟着老师一起思考
 
@@ -1846,12 +1823,12 @@ treemap
 空树也在二叉搜索树里
 缺点是会退化，要维护，所以才是平衡二叉搜索树（AVL或者红黑树）
 
-图片: https://uploader.shimo.im/f/TLuOPe5FJQu6Pejp.png
+
 只记平均和O（1）
 这些都是模板，滚瓜烂熟吧
 
 
-图片: https://uploader.shimo.im/f/Tgfdeij8l661SeRv.png
+
 
 算法找它的最近重复性
 主要是前三个
@@ -1859,7 +1836,8 @@ treemap
 循环，移动零，操作数组下标
 
 二分法参考拉布拉东
-图片: https://uploader.shimo.im/f/gd3BJO81EO7kq9cq.png
+
+
 
 最关键的掌握递归和模板
 
@@ -1867,14 +1845,14 @@ treemap
 
 生成图片，放到微信收藏起来
 
-图片: https://uploader.shimo.im/f/bWNhVpqcIbrV2eGy.png
+
 
 为什么不要人肉递归？因为人肉，无法并行展开！
 
 异地多活？怎么解决？
 
 投资哲学
-图片: https://uploader.shimo.im/f/6hjamKbKHzp3nsxq.png
+
 过遍数比做新题更重要
 做一题，得一题
 
@@ -1884,7 +1862,7 @@ treemap
 基础性知识的难题，就能说出来就行，简单题中等题，必须会做
 
 滴答清单，设置艾宾浩斯的曲线
-图片: https://uploader.shimo.im/f/KwMrktG4bmQJFS8L.png
+
 
 过遍数你会感觉不一样
 你会渐入佳境
@@ -1904,7 +1882,7 @@ LC 91 numcoding
 逻辑思维能力能达到什么水平？
 123级台阶爬楼梯？
 上法打印
-图片: https://uploader.shimo.im/f/wfYQqp4Fn8zSXJOU.png
+
 
 你可以不断变化，可以看人做到第几层，有梯度，就能知道面试者的水平
 面试者很紧张，大部分都做不出来
@@ -2187,7 +2165,7 @@ s2长度为m
 就是
 本质是比较两个字符串的相似度
 
-图片: https://uploader.shimo.im/f/aX7aoUdGDgb2ez7T.png
+
 
 数组里的数字表示行和列对应的两个子字符串间的最长公共子串的长度
 
@@ -2427,7 +2405,7 @@ tree，bst有序 O(logn）
 
 https://shimo.im/folder/WjP9V3HWpJYhCTKr
 
-图片: https://uploader.shimo.im/f/WEzIUTHq3BmfE1wN.png
+
 
 把面试当做和未来同事沟通的场景，信任，有安全感，沟通、交流
 
@@ -2438,13 +2416,13 @@ trie
 确实，这个课程我最该学的就是动态规划
 全部学完了就可以开始做周赛了，定期刷题了，自己慢慢进步了，蛮好
 
-图片: https://uploader.shimo.im/f/6svnzWddJeUT8e0Y.png
+
 插入的时候不断往后找单词所在的child，没有就插进去
 
-图片: https://uploader.shimo.im/f/6uuLfAub8GdHQdOw.png
+
 java实现，明显更复杂了
 
-图片: https://uploader.shimo.im/f/SELmlqSq5gxlOjyU.png
+
 用数组记录节点
 
 中文怎么存trie
@@ -2460,15 +2438,14 @@ java实现，明显更复杂了
 根节点 parent[i] = i
 
 
-图片: https://uploader.shimo.im/f/wGuK6V6yDrP2KJsl.png
 
 
 
-图片: https://uploader.shimo.im/f/33PUurnlFWTNZ0oM.png并查集解决的问题：谁和谁是一类
+并查集解决的问题：谁和谁是一类
 
 布隆过滤器
 
-图片: https://uploader.shimo.im/f/P1h6rKOgPy9XJpaC.png
+
 
 如果被设置为1，可能存在
 如果没有被设置为1，肯定不存在
@@ -2485,7 +2462,7 @@ java实现，明显更复杂了
 查询机器之前，先看是否在这个分区，如果不是，那么肯定不需要找，看能否查到，增加了一层效率的优化
 
 LRU cache
-图片: https://uploader.shimo.im/f/bOpGKT8JNYMcVTAE.png
+
 
 哈希表和双链表去做
 
@@ -2496,7 +2473,7 @@ LRU都是O(1)的
 
 位运算
 
-图片: https://uploader.shimo.im/f/zYWhg4LLQEO13DsF.png
+
 
 位运算时，要考虑无符号整数和有符号整数吗？
 算术性质要考虑
@@ -2510,7 +2487,7 @@ LRU都是O(1)的
 
 11111111
 
-图片: https://uploader.shimo.im/f/0HbTImqV8AW5MhlV.png
+
 
 位运算是优化代码质量，简化代码操作的奇招
 
@@ -2518,8 +2495,6 @@ LRU都是O(1)的
 X & （X - 1）清零最低位的1
 X & -X 得到最低位的1
 X & ~X + 1保留最后一位1
-
-
 位运算主要的目的是检查位有没有被用过
 
 
@@ -2527,11 +2502,11 @@ X & ~X + 1保留最后一位1
 2-3树，AVL、红黑树等等
 
 串讲算法：递归、分治、回溯、动态规划
-图片: https://uploader.shimo.im/f/bTdJkISGEniHep7M.png
+
 肌肉式记忆，不然前功尽弃
 
 
-图片: https://uploader.shimo.im/f/TbwdkU7la3a56BDx.png
+
 
 没有重复性，那也没必要用算法了，计算机无能为力了
 能用计算机解决的，都有重复性，因为计算机体系结构这么决定的
@@ -2580,7 +2555,7 @@ elon musk 也许我们在模拟器
 动态规划可以自底向上递推——动态递推
 打家劫舍没有淘汰掉中间过程，没有把最优值向上传递，那也不叫动态规划
 
-图片: https://uploader.shimo.im/f/6fcIyGEd7254fWvk.png
+
 只用两个是因为python可以两项同时赋值
 
 把状态分类，然后定义转移过程——DP状态转移方程
@@ -2628,7 +2603,7 @@ LC 2 两数相加
 
 75 颜色分类问题
 排序，计数，双下标
-图片: https://uploader.shimo.im/f/Sd302wbzF8M9X7Q4.png
+
 
 
 去重，去掉一个数组里的重复元素
@@ -2645,11 +2620,11 @@ LC 2 两数相加
 
 24 两两兑换链表
 10.01面试题  合并两个有序数组——从后往前做
-图片: https://uploader.shimo.im/f/1dzoPrsEqgb7yAX0.png
+
 
 21合并两个有序链表
 
-图片: https://uploader.shimo.im/f/n3CjrMgAaLIDri3w.png
+
 
 23 合并k个链表
 多路归并，一般前面面得不错，才会遇到这题，是机遇也是挑战
@@ -2659,7 +2634,7 @@ LC 2 两数相加
 字节跳动三面压轴题
 
 104数的最大深度
-图片: https://uploader.shimo.im/f/kf03GS9OOVVrIPH2.png
+
 
 102层次遍历
 BFS、DFS，都可以写
@@ -2681,7 +2656,7 @@ LC 22
 再把DFS，BFS解决
 
 127单词接龙
-图片: https://uploader.shimo.im/f/l3VWrqJq6aXNxUkL.png
+
 
 逻辑上和python没什么区别
 
@@ -2694,7 +2669,7 @@ LC 22
 基于它才会有扩展，不然你后面搜索题全不会
 过不了二面和三面
 
-图片: https://uploader.shimo.im/f/WqEQ2YgbvmupsvgG.png
+
 
 
 79单词搜索
@@ -2724,7 +2699,7 @@ steps在dp的每一步都记录它之前的位置
 记录路径，记录DP状态转移时的路径，是从哪个下标位置过来的
 最后打印三角里的值就行了
 
-图片: https://uploader.shimo.im/f/wMezlAvIX0wVS8bZ.png
+
 
 再就是res 数组每次 + 这个下标对 tuple（类似与数组后面加了元素这样，把数组最后依次打印，就是路径了）
 
@@ -2732,7 +2707,7 @@ steps在dp的每一步都记录它之前的位置
 
 直接DFS，把所有方案递归出来
 LC 70 爬楼梯
-图片: https://uploader.shimo.im/f/1NnoMrEpSrNr4t5a.png
+
 
 老的题目，测试数据加了很多，或者接口更新了，就不太好学了，不要纠结它的问题
 更新即可
@@ -2744,13 +2719,12 @@ LC 70 爬楼梯
 过遍数
 学习，总结成体系
 
-图片: https://uploader.shimo.im/f/RDvZFnqvPYKO2UoD.png
+
 
 资本永不眠
 
 基本功练熟
 
-图片: https://uploader.shimo.im/f/Pa7KHD3Hglt2n35j.png
 这是思维习惯
 
 过一遍的知识点，考前背一背，讲讲原理就行了
